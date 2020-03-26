@@ -30,10 +30,9 @@
           <div
             :class="getTabContent(index + 1)"
             v-for="(item, index) in tabName"
-            :key="item"
-            v-if="isActivePanel(tabName[index])"
+            :key="item" 
           >
-            <slot :name="getTabContent(index + 1)">
+            <slot :name="getTabContent(index + 1)"  v-if="isActivePanel(tabName[index])">
               This is the default text!
             </slot>
           </div>

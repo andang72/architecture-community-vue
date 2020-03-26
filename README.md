@@ -1,6 +1,6 @@
 # frontend
 
-> architecture community for vue
+> web application with architecture community studio for vue version
 
 ## Build Setup
 
