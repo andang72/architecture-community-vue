@@ -1,0 +1,9 @@
+.profile-photo-small img { height: 100%; }
+	
+.author .avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
